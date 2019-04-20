@@ -1,3 +1,4 @@
 # JwtDemo
 1. 首先在数据库中建立一个名为jwt的数据库
 2. 该项目实现了JWT拦截功能，目标拦截地址可在JwtAuthenticationFilter的isProtectedUrl里面设置，可直接使用它来做基于SpringBoot的jwt拦截
+3. 不在isProtectedUrl里的地址不做JWT拦截
